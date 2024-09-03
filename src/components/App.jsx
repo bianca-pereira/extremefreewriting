@@ -3,12 +3,16 @@ import classNames from "classnames";
 import { FullScreen, useFullScreenHandle } from "react-full-screen";
 
 import Progress from "./Progress";
+
+
 import WordCount from "./WordCount";
 import WriteButton from "./WriteButton";
 import Failure from "./Failure";
 import Download from "./Download";
 import Editor from "./Editor";
 import { AppContext } from "./AppContext";
+
+
 
 const withFullscreenHook = (Component) => {
   return (props) => {
