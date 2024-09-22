@@ -55,6 +55,7 @@ const Welcome = () => (
         </h1>
       </div>
       <Space xl />
+      <Space xl />
       <h2>
         Don’t stop typing, or all progress will be lost.
         <i className="caret icon-cursor" />
