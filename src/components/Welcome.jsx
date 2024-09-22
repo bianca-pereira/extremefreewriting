@@ -29,10 +29,9 @@ const Banner = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="logo" />
-        Want to access more note-taking methods? Check out&nbsp;
+        Want to learn other note-taking methods? Check out the&nbsp;
         <strong>
-          <span className="red">The Active Note-Taking Course</span>
+          <span className="red">Active Note-Taking Course</span>
         </strong>
         .
         <div className="close" onClick={handleClose}>
@@ -46,17 +45,13 @@ const Banner = () => {
 const Welcome = () => (
   <div className="Welcome">
     <Banner />
-    /* <Link to="/help" className="navButton helpButton">
-      Help
-    </Link> */
     <Space xl />
     <div>
       <div className="logo">
-        <div className="mark"></div>
         <h1>
-          <span>Extreme Freewriting</span>
-          <span>Dangerous</span>
-          <span>Writing App</span>
+          <span></span>
+          <span>Extreme</span>
+          <span>Freewriting</span>
         </h1>
       </div>
       <Space m />
@@ -67,7 +62,6 @@ const Welcome = () => (
       <Space xl />
       <WriteButton ghost color="red" />
     </div>
-    <div className="accolades" />
   </div>
 );
 
