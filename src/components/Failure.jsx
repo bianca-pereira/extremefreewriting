@@ -23,7 +23,7 @@ const Failure = ({ limit, type, lost, words }) => {
           <div className="failure" key="failScreen">
             <div className="inner">
               <h3>You almost did it!</h3>
-              <div>A moment of self-judgement made you lose {words} words.</div>
+              <div className="msg">A moment of self-judgement made you lose {words} words.</div>
               <WriteButton
                 ghost
                 noPanel
