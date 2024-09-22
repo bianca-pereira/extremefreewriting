@@ -25,8 +25,8 @@ const Failure = ({ limit, type, lost, words }) => {
               Help
             </Link>
             <div className="inner">
-              <h3>You failed.</h3>
-              <TweetButton words={words} />
+              <h3>You almost did it!</h3>
+              <div>A moment of self-judgement made you lose {words} words.</div>
               <WriteButton
                 ghost
                 noPanel
