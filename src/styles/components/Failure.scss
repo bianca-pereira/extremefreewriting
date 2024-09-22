@@ -5,7 +5,7 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background: $red;
+    background: $blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,10 +33,15 @@
 
     &.failure-enter.failure-enter-active
         {
-        box-shadow: inset 0px 0px 20px 1000px $red;
-        background: $red;
+        box-shadow: inset 0px 0px 20px 1000px $blue;
+        background: $blue;
         transition: box-shadow .3s ease-in, background .3s .1s ease-in;
         .inner { opacity: 1; transition: opacity .5s .2s ease-out; }
+        }
+    .msg
+        {
+        color: $white;
+        font-size: $reg;
         }
     }
 
