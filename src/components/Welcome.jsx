@@ -25,14 +25,14 @@ const Banner = () => {
     <div className="Banner">
       <a
         className={innerClasses}
-        href="https://www.theleastdangeroustodolist.com?ref=mdwa"
+        href="https://biancapereira.gumroad.com/l/active-note-taking-selfpaced"
         target="_blank"
         rel="noopener noreferrer"
       >
         <div className="logo" />
-        Want to feel accomplished? Check out&nbsp;
+        Want to access more note-taking methods? Check out&nbsp;
         <strong>
-          The Least <span className="red">Dangerous</span> To-Do List
+          <span className="red">The Active Note-Taking Course</span>
         </strong>
         .
         <div className="close" onClick={handleClose}>
