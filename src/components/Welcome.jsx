@@ -54,7 +54,7 @@ const Welcome = () => (
           <span>Freewriting</span>
         </h1>
       </div>
-      <Space m />
+      <Space xl />
       <h2>
         Don’t stop typing, or all progress will be lost.
         <i className="caret icon-cursor" />
