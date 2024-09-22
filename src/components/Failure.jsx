@@ -21,9 +21,6 @@ const Failure = ({ limit, type, lost, words }) => {
       {lost && (
         <CSSTransition classNames="failure" timeout={{ enter: 500, exit: 100 }}>
           <div className="failure" key="failScreen">
-            <Link to="/help" className="navButton helpButton white">
-              Help
-            </Link>
             <div className="inner">
               <h3>You almost did it!</h3>
               <div>A moment of self-judgement made you lose {words} words.</div>
@@ -32,7 +29,7 @@ const Failure = ({ limit, type, lost, words }) => {
                 noPanel
                 color="white"
                 label="Try
-            Again."
+            Again"
                 type={type}
                 limit={limit}
               />
