@@ -7,7 +7,7 @@ export default class WriteButton extends React.Component {
     super(props);
     this.state = {
       hardcore: this.props.hardcore || false,
-      limit: this.props.limit || 5,
+      limit: this.props.limit || 10,
       type: this.props.type || "minutes",
       compact: true,
       hidePanel: this.props.hidePanel
