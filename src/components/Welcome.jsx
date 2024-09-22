@@ -46,15 +46,15 @@ const Banner = () => {
 const Welcome = () => (
   <div className="Welcome">
     <Banner />
-    <Link to="/help" className="navButton helpButton">
+    /* <Link to="/help" className="navButton helpButton">
       Help
-    </Link>
+    </Link> */
     <Space xl />
     <div>
       <div className="logo">
         <div className="mark"></div>
         <h1>
-          <span>The Most</span>
+          <span>Extreme Freewriting</span>
           <span>Dangerous</span>
           <span>Writing App</span>
         </h1>
