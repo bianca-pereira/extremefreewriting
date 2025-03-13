@@ -25,13 +25,13 @@ const Banner = () => {
     <div className="Banner">
       <a
         className={innerClasses}
-        href="https://biancapereira.gumroad.com/l/active-note-taking-selfpaced"
+        href="https://learnerparadise.com"
         target="_blank"
         rel="noopener noreferrer"
       >
         Want to learn other note-taking methods? Check out the&nbsp;
         <strong>
-          <span className="red">Active Note-Taking Course</span>
+          <span className="red">Active Note-Taking Course</span> in the Lifelong Learner's Paradise
         </strong>
         .
         <div className="close" onClick={handleClose}>
